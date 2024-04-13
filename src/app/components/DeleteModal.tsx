@@ -1,7 +1,15 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const DeleteModal = ({ data, selected, onSubmit }) => {
+const DeleteModal = ({
+  data,
+  selected,
+  onSubmit,
+}: {
+  data: any;
+  selected: any;
+  onSubmit: any;
+}) => {
   const handleClose = (modalId: any) => {
     window[modalId]?.close();
   };

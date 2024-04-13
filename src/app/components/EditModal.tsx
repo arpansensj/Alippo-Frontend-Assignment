@@ -1,7 +1,14 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const EditModal = ({ selected, onSubmit }) => {
+const EditModal = ({
+  selected,
+  onSubmit,
+}: {
+  data: any;
+  selected: any;
+  onSubmit: any;
+}) => {
   const [name, setName] = useState("");
   const handleClose = (modalId: any) => {
     window[modalId]?.close();

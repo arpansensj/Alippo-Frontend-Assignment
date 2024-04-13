@@ -54,7 +54,7 @@ const Home: React.FC = () => {
     const newData = data.filter((item) => item !== selectedToDelete);
 
     setData(newData);
-    window["delete"]?.close();
+    (window as any)["delete"]?.close();
   };
 
   return (
