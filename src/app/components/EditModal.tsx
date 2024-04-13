@@ -5,7 +5,6 @@ const EditModal = ({
   selected,
   onSubmit,
 }: {
-  data: any;
   selected: any;
   onSubmit: any;
 }) => {
@@ -28,7 +27,7 @@ const EditModal = ({
   return (
     <div>
       <dialog id="edit" className="modal rounded-md">
-        <div className="modal-box bg-white p-4 rounded shadow-md w-[360px]">
+        <div className="modal-box bg-white p-6 rounded shadow-md w-[366px]">
           <h3 className="font-bold text-lg">Edit Name</h3>
           <div className="flex gap-2 mt-4">
             <label className="form-control w-full">
@@ -37,7 +36,7 @@ const EditModal = ({
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="Type here"
-                className="input input-bordered w-full px-2"
+                className="input input-bordered w-full p-2 rounded-md"
               />
             </label>
           </div>

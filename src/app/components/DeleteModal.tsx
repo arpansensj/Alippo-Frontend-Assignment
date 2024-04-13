@@ -29,7 +29,7 @@ const DeleteModal = ({
   return (
     <div>
       <dialog id="delete" className="modal rounded-md">
-        <div className="modal-box p-4 bg-white shadow-md w-[360px]">
+        <div className="modal-box p-4 bg-white shadow-md w-[366px]">
           <h3 className="font-bold text-lg">Delete ({index})</h3>
           <div className="modal-action mt-4 flex justify-end">
             <button
