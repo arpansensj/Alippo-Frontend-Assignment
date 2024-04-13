@@ -73,7 +73,7 @@ const Home: React.FC = () => {
           </thead>
           <tbody>
             {data?.map((data, index) => (
-              <tr className="bg-base-200">
+              <tr key={index} className="bg-base-200">
                 <th className=" text-[#02343F] py-5 ">{index + 1}</th>
                 <td className="text-center  text-[#02343F] ">
                   {data?.name ?? "----"}
