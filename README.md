@@ -1,3 +1,5 @@
+In this project, I crafted a web application using Next.js and TypeScript, with Tailwind CSS for styling and React Icons for UI enhancements. The core aim was to fashion a dynamic dashboard that retrieves and showcases data from an external API. My primary focus was on ensuring a seamless user experience by gracefully handling null and empty data scenarios. The project's codebase is thoughtfully organized, easy to comprehend, and upholds high code quality, following industry best practices. Additionally, the GitHub repository is publicly accessible, enabling convenient review and assessment. Through this project, I exhibit proficiency in Next.js, API integration, state management, and UI development, all while emphasizing developer-friendly practices.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
